@@ -1,8 +1,8 @@
 config:
   target: "http://httpbin.org/"
   phases:
-    - duration: 20
-      arrivalRate: 5
+    - duration: 60
+      arrivalRate: 10
       name: Artillery First Test
 scenarios:
   - name: Getting a resource
