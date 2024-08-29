@@ -1,0 +1,12 @@
+config:
+  target: "http://httpbin.org/"
+  phases:
+    - duration: 300
+      arrivalRate: 2
+      name: Spike-pre Warm-Up
+    - duration: 10
+      arrivalRate: 20
+      name: Spike test
+    - duration: 300
+      arrivalRate: 2
+      name: Spike-post Cool-down

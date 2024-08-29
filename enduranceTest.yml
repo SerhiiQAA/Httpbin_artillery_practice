@@ -1,0 +1,5 @@
+config:
+phases:
+- duration: 18000
+arrivalRate: 1
+name: Endurance test
